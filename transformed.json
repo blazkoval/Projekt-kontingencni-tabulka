@@ -4,8 +4,6 @@
             {
                 "id": "45b2df80-ae0f-11ed-9bd8-0242ac110002",
                 "name": "Zkouška",
-                "startdate": "2023-04-19T08:00:00",
-                "enddate": "2023-04-19T09:00:00",
                 "groups": [
                     {
                         "id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
@@ -25,13 +23,12 @@
                     }
                 ],
                 "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
-                "eventtype_name": "Ostatní"
+                "eventtype_name": "Ostatní",
+                "duration": "1:00:00"
             },
             {
                 "id": "9baf3eec-ae0f-11ed-9bd8-0242ac110002",
                 "name": "Zkouška",
-                "startdate": "2023-04-20T08:00:00",
-                "enddate": "2023-04-20T09:00:00",
                 "groups": [
                     {
                         "id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
@@ -51,13 +48,12 @@
                     }
                 ],
                 "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
-                "eventtype_name": "Ostatní"
+                "eventtype_name": "Ostatní",
+                "duration": "1:00:00"
             },
             {
                 "id": "75b532ea-2171-40f5-882c-b3ab1d1bb64a",
                 "name": "Zkouška",
-                "startdate": "2023-04-21T08:00:00",
-                "enddate": "2023-04-21T11:00:00",
                 "groups": [
                     {
                         "id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
@@ -73,13 +69,12 @@
                     }
                 ],
                 "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
-                "eventtype_name": "Ostatní"
+                "eventtype_name": "Ostatní",
+                "duration": "3:00:00"
             },
             {
                 "id": "9baf3d70-ae0f-11ed-9bd8-0242ac110002",
                 "name": "Zkouška",
-                "startdate": "2023-04-23T09:00:00",
-                "enddate": "2023-04-23T11:00:00",
                 "groups": [
                     {
                         "id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
@@ -95,13 +90,12 @@
                     }
                 ],
                 "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
-                "eventtype_name": "Ostatní"
+                "eventtype_name": "Ostatní",
+                "duration": "2:00:00"
             },
             {
                 "id": "3fb78dbf-c015-4af4-bf55-2a6d2b59283c",
                 "name": "Přednáška o ničem",
-                "startdate": "2023-04-26T08:00:00",
-                "enddate": "2023-04-26T09:30:00",
                 "groups": [
                     {
                         "id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
@@ -121,7 +115,8 @@
                     }
                 ],
                 "eventtype_id": "b87d7be6-8fd4-11ed-a6d4-0242ac110002",
-                "eventtype_name": "P"
+                "eventtype_name": "P",
+                "duration": "1:30:00"
             }
         ]
     }
