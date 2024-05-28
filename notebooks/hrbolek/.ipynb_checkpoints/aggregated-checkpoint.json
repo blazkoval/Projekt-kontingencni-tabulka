@@ -1,0 +1,37 @@
+[
+    {
+        "group_name": "22-5KB-A",
+        "eventtype_name": "Ostatní",
+        "total_duration": 420.0
+    },
+    {
+        "group_name": "22-5KB-A",
+        "eventtype_name": "P",
+        "total_duration": 90.0
+    },
+    {
+        "group_name": "22-5KB-B",
+        "eventtype_name": "Ostatní",
+        "total_duration": 420.0
+    },
+    {
+        "group_name": "22-5KB-C",
+        "eventtype_name": "Ostatní",
+        "total_duration": 240.0
+    },
+    {
+        "group_name": "22-5KB-C",
+        "eventtype_name": "P",
+        "total_duration": 90.0
+    },
+    {
+        "group_name": "22-5KB-D",
+        "eventtype_name": "Ostatní",
+        "total_duration": 300.0
+    },
+    {
+        "group_name": "22-5KB-D",
+        "eventtype_name": "P",
+        "total_duration": 90.0
+    }
+]
