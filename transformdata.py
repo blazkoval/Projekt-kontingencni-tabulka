@@ -1,7 +1,12 @@
+# cd D:\projekt-kont-tabulka\Projekt-kontingencni-tabulka\
+# py transformData.py
+
 import json
 from datetime import datetime
 import copy
 import pandas as pd
+from collections import defaultdict
+
 
 def transform_events(data):
     transformed_events = []
@@ -32,15 +37,46 @@ def transform_events(data):
 
     return transformed_events
 
+def aggregate_events(events):
+    aggregated_data = defaultdict(lambda: defaultdict(lambda: {"total_duration": 0.0}))
+
+    for event in events:
+        group_name = event["group_name"]
+        name = event["eventtype_name"]
+        duration = event["duration"]
+        
+        aggregated_data[group_name][name]["total_duration"] += duration
+    
+    # Konverze na list dict pro výstup
+    output_data = []
+    for group_name, events in aggregated_data.items():
+        for name, details in events.items():
+            output_data.append({
+                "group_name": group_name,
+                "eventtype_name": name,
+                "total_duration": details["total_duration"]
+            })
+    
+    return output_data
+
 f = "data.json"
 with open(f, 'r', encoding='utf-8') as file:
     data_json = json.load(file)
 
-# Transformace dat
+
 transformed_data = transform_events(data_json)
+aggregated_data = aggregate_events(transformed_data)
 
-with open('transformed.json', 'w', encoding='utf-8') as outfile:
-    json.dump(transformed_data, outfile, indent=4, ensure_ascii=False)
+# ====== transformovana data do JSONu a excelu ==========
+# with open('transformed.json', 'w', encoding='utf-8') as outfile:
+#     json.dump(transformed_data, outfile, indent=4, ensure_ascii=False)
 
-df = pd.DataFrame(transformed_data)
-df.to_excel('transformed.xlsx', index=False)
+# df = pd.DataFrame(transformed_data)
+# df.to_excel('tranformed.xlsx', index=False)
+
+# ====== agregovana data do JSONu a excelu ==============
+with open('aggregated.json', 'w', encoding='utf-8') as outfile:
+    json.dump(aggregated_data, outfile, indent=4, ensure_ascii=False)
+
+df = pd.DataFrame(aggregated_data)
+df.to_excel('aggregated.xlsx', index=False)
