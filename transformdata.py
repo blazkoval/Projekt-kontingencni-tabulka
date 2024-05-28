@@ -67,7 +67,7 @@ with open(f, 'r', encoding='utf-8') as file:
 transformed_data = transform_events(data_json)
 aggregated_data = aggregate_events(transformed_data)
 
-# ====== transformovana data do JSONu a excelu ==========
+## ====== transformovana data do JSONu a excelu ==========
 # with open('transformed.json', 'w', encoding='utf-8') as outfile:
 #     json.dump(transformed_data, outfile, indent=4, ensure_ascii=False)
 
