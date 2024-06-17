@@ -1,0 +1,155 @@
+[
+    {
+        "id": "45b2df80-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 60.0,
+        "group_id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-A"
+    },
+    {
+        "id": "45b2df80-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 60.0,
+        "group_id": "9baf3d70-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-B"
+    },
+    {
+        "id": "45b2df80-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 60.0,
+        "group_id": "9baf3de8-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-C"
+    },
+    {
+        "id": "45b2df80-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 60.0,
+        "group_id": "9baf3e42-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-D"
+    },
+    {
+        "id": "9baf3eec-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 60.0,
+        "group_id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-A"
+    },
+    {
+        "id": "9baf3eec-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 60.0,
+        "group_id": "9baf3d70-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-B"
+    },
+    {
+        "id": "9baf3eec-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 60.0,
+        "group_id": "9baf3de8-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-C"
+    },
+    {
+        "id": "9baf3eec-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 60.0,
+        "group_id": "9baf3e42-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-D"
+    },
+    {
+        "id": "75b532ea-2171-40f5-882c-b3ab1d1bb64a",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 180.0,
+        "group_id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-A"
+    },
+    {
+        "id": "75b532ea-2171-40f5-882c-b3ab1d1bb64a",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 180.0,
+        "group_id": "9baf3d70-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-B"
+    },
+    {
+        "id": "75b532ea-2171-40f5-882c-b3ab1d1bb64a",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 180.0,
+        "group_id": "9baf3e42-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-D"
+    },
+    {
+        "id": "9baf3d70-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 120.0,
+        "group_id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-A"
+    },
+    {
+        "id": "9baf3d70-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 120.0,
+        "group_id": "9baf3d70-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-B"
+    },
+    {
+        "id": "9baf3d70-ae0f-11ed-9bd8-0242ac110002",
+        "name": "Zkouška",
+        "eventtype_id": "b87d3ff0-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "Ostatní",
+        "duration": 120.0,
+        "group_id": "9baf3de8-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-C"
+    },
+    {
+        "id": "3fb78dbf-c015-4af4-bf55-2a6d2b59283c",
+        "name": "Přednáška o ničem",
+        "eventtype_id": "b87d7be6-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "P",
+        "duration": 90.0,
+        "group_id": "9baf3b54-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-A"
+    },
+    {
+        "id": "3fb78dbf-c015-4af4-bf55-2a6d2b59283c",
+        "name": "Přednáška o ničem",
+        "eventtype_id": "b87d7be6-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "P",
+        "duration": 90.0,
+        "group_id": "9baf3de8-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-C"
+    },
+    {
+        "id": "3fb78dbf-c015-4af4-bf55-2a6d2b59283c",
+        "name": "Přednáška o ničem",
+        "eventtype_id": "b87d7be6-8fd4-11ed-a6d4-0242ac110002",
+        "eventtype_name": "P",
+        "duration": 90.0,
+        "group_id": "9baf3e42-ae0f-11ed-9bd8-0242ac110002",
+        "group_name": "22-5KB-D"
+    }
+]

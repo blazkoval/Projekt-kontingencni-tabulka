@@ -69,15 +69,15 @@ transformed_data = transform_events(data_json)
 aggregated_data = aggregate_events(transformed_data)
 
 ## ====== transformovana data do JSONu a excelu ==========
-# with open('transformed.json', 'w', encoding='utf-8') as outfile:
-#     json.dump(transformed_data, outfile, indent=4, ensure_ascii=False)
+with open('transformed.json', 'w', encoding='utf-8') as outfile:
+     json.dump(transformed_data, outfile, indent=4, ensure_ascii=False)
 
-# df = pd.DataFrame(transformed_data)
-# df.to_excel('tranformed.xlsx', index=False)
+df = pd.DataFrame(transformed_data)
+df.to_excel('tranformed.xlsx', index=False)
 
 # ====== agregovana data do JSONu a excelu ==============
-with open('aggregated.json', 'w', encoding='utf-8') as outfile:
-    json.dump(aggregated_data, outfile, indent=4, ensure_ascii=False)
+# with open('aggregated.json', 'w', encoding='utf-8') as outfile:
+#     json.dump(aggregated_data, outfile, indent=4, ensure_ascii=False)
 
-df = pd.DataFrame(aggregated_data)
-df.to_excel('aggregated.xlsx', index=False)
+# df = pd.DataFrame(aggregated_data)
+# df.to_excel('aggregated.xlsx', index=False)
