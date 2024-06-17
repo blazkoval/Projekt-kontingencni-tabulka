@@ -63,7 +63,8 @@ f = "data.json"
 with open(f, 'r', encoding='utf-8') as file:
     data_json = json.load(file)
 
-
+# vstup bude query - dotaz v url poslat na gql end point, tyto funkce a pak výstup je df
+# celé zabalit do funkce, vstup data.json výstup má být df
 transformed_data = transform_events(data_json)
 aggregated_data = aggregate_events(transformed_data)
 
