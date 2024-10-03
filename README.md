@@ -1,7 +1,8 @@
-"# Projekt-kontingencni-tabulka" 
+## Projekt-kontingencni-tabulka 
 
 # Zadání - Analýza plánovaných hodin u studijní skupiny v časovém období (gql_ug + gql_events)
 
+<<<<<<< HEAD
 ## Společné podmínky
 -	Vytvořit GQL dotaz na základě existující federace, 
 -	Definovat transformaci GQL response -> table rows (vstup pro kontingenční tabulku)
@@ -34,3 +35,7 @@ Výsledek projektu je tedy kontigenční tabulka, sloupcový graf a sunburst gra
 
 
 alt + shift + f = pr formátování jsonu
+=======
+
+alt + shift + f = pro formátování jsonu
+>>>>>>> 8e3e6275faf006817c4377e9f9e8ccf649e6026f
